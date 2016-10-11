@@ -1,12 +1,6 @@
-" ┌──────────────────────────────┐
-" │ Mark's _  fairly decent      │
-" │ __   _(_)_ __ ___  _ __ ___  │
-" │ \ \ / / | '_ ` _ \| '__/ __| │
-" │  \ V /| | | | | | | | | (__  │
-" │   \_/ |_|_| |_| |_|_|  \___| │
-" │                              │
-" └──────────────────────────────┘
-"
+" Derived from Mark's vim https://github.com/Klowner/vimrc/blob/master/vimrc
+
+
 " Section: Basic Configuration {{{1
 
 set runtimepath+=~/.vim
@@ -125,14 +119,6 @@ Plug 'gregsexton/gitv'
 Plug 'guns/xterm-color-table.vim',          { 'on': 'XtermColorTable' }
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-sensible'
-Plug 'roryokane/detectindent' "{{{
-    let g:detectindent_preferred_expandtab=1
-    let g:detectindent_preferred_indent=4
-    augroup DetectIndent
-        autocmd!
-        autocmd BufReadPost * DetectIndent
-    augroup END
-"}}}
 Plug 'tpope/vim-surround'
 Plug 'Shougo/unite.vim' "{{{
     autocmd FileType unite call s:unite_my_settings()
