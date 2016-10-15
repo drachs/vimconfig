@@ -40,7 +40,7 @@ set shiftwidth=4
 set completeopt-=preview
 set scrolloff=8
 
-set spell
+"set spell
 " Attempt to put backup files in /run/user/$UID/vim
 function! s:DetermineBackupDirectory()
     let l:dirpath=expand("/run/user/$UID")
