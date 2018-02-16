@@ -30,7 +30,7 @@ set incsearch                       " Search as you type
 set hidden                          " Sometimes I don't want to save a buffer
                                     " before switching buffers
 
-set backupdir=~/tmp
+set backupdir=/tmp
 set modelines=5
 set matchtime=1
 set modeline
@@ -176,7 +176,6 @@ Plug 'Shougo/unite.vim' "{{{
         let g:unite_source_grep_command = 'ack'
         let g:unite_source_grep_default_opts = '--no-heading --no-color -C4'
         let g:unite_source_grep_recursive_opt = ''
-        echom "Silver Searcher is unavailable, unite results will probably be irritating"
     endif
 
     Plug 'Shougo/unite-outline' "{{{
