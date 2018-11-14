@@ -166,9 +166,7 @@ Plug 'Shougo/unite.vim' "{{{
     if executable('ag')
         " Use instead of grep
         let g:unite_source_grep_command = 'ag'
-        let g:unite_source_grep_default_opts =
-                    \ '-i --line-numbers --nocolor --nogroup --hidden --ignore ' .
-                    \ '''.hg'' --ignore ''.svn'' --ignore ''.git'' --ignore ''.bzr'''
+        let g:unite_source_grep_default_opts = '-i --line-numbers --nocolor --nogroup --hidden --ignore ' . '''.hg'' --ignore ''.svn'' --ignore ''.git'' --ignore ''.bzr'''
         let g:unite_source_grep_recursive_opt = ''
         " Use instead of `find`
         let g:unite_source_rec_async_command= 'ag --nocolor --nogroup --hidden -g ""'
