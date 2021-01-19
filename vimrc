@@ -229,10 +229,10 @@ Plug 'scrooloose/syntastic' "{{{
     let g:syntastic_javascript_jslint_conf = "--nomen"
     let g:syntastic_javascript_checkers = ['jshint', 'jscs']
     let g:syntastic_python_checkers =['python', 'flake8']
-    "let g:syntastic_c_checkers = ['clang_check']
+    let g:syntastic_c_checkers = ['make']
     "let g:syntastic_c_lang_check_post_args = ""
     "let g:syntastic_c_check_header = 1
-    "let g:syntastic_c_compiler = 'clang'
+    "let g:syntastic_c_compiler = 'gcc'
     let g:syntastic_auto_loc_list = 1
     let g:syntastic_error_symbol = '✗'
     let g:syntastic_style_error_symbol = '◼'
